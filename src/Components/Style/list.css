@@ -1,0 +1,17 @@
+.list{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+.list>div{
+    padding: 10px 18px;
+    border: 1px solid #33b249;
+    transition: all 0.3s;
+    transition-delay: 2s;
+}
+.bargraph{
+    color: white;
+    padding: 10px;
+    transition: all 1s;
+    background-color: #8a8e8ac0;
+}

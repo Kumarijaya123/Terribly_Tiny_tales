@@ -1,0 +1,31 @@
+.home{
+    /* border: 2px solid black; */
+    min-width: 100vw;
+}
+.homeTable{
+    margin-top: 20px;
+}
+.homeContainer{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.homeContainer>button{
+    margin: 0px 5vw;
+}
+button{
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+button:nth-child(1){
+    background-color: #db5757;
+}
+button:nth-child(2){
+    background-color: #33b249;
+}
